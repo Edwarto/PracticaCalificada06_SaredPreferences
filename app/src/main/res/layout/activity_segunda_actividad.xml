@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="87dp"
+        android:id="@+id/etNombre_SP"/>
+
+
+
+    <TextView
+        android:id="@+id/etTamnioFuente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="145dp"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:text="Tamaño de fuente"
+        />
+
+    <Button
+        android:id="@+id/btnaumentar"
+        android:layout_width="99dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/buttons"
+        android:ems="10"
+        android:padding="0dp"
+        android:text="Aumentar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnpredeterminado"
+        android:layout_width="137dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/buttons"
+        android:ems="10"
+        android:padding="0dp"
+        android:text="Predeterminado"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btndisminuir"
+        android:layout_width="99dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/buttons"
+        android:ems="10"
+        android:padding="0dp"
+        android:text="Disminuir"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>
